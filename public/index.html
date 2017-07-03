@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><img class="sign" src="images/sign.png" alt="Amin"></center>
+    <div>
+        <form>
+            <input type="text" name="work" id="work" placeholder="Add Work">
+            <br><br>
+            <img src="images/add.png" alt="Add" onclick="addWork()">
+            <img id="delall" src="images/deleteall.png" alt="Del" onclick="delWork()">
+        </form>
+    </div>
+    <div id="added">
+        <ul id="addedWork">
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
